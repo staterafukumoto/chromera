@@ -1,0 +1,148 @@
+/* chromera, a chrome like theme */
+/* by wayoutware */
+
+body{
+    background: white;
+}
+
+#titlebar-region{
+    background: white !important;
+    border-bottom: 1px solid #adadad;
+}
+
+#tabregion{
+    background: #ededed !important;
+    right: 169px;
+}
+
+#dummytabregion{
+    background: #ededed !important;
+}
+
+#tabregion::-webkit-scrollbar { 
+    /* display: none;  */
+    position: absolute;
+    height: 1px;
+    width: 0px;
+    top: 0px;
+    background: white;
+}
+
+#tabregion::-webkit-scrollbar-track{
+    display: none;
+    background: transparent;
+}
+
+#tabregion::-webkit-scrollbar-thumb{
+    background: rgba(0,0,0,0.3);
+}
+
+#urlbar{
+    border-radius: 999px;
+    border-color: rgba(0,0,0,0);
+    background: #ededed;
+    color: black;
+    font-size: 15px;
+}
+
+#urlbar:focus{
+    background: white;
+    border: 1px solid #5998ff;
+}
+
+#urlbar::selection{
+    background: #5998ff;
+    color: white;
+}
+
+
+#urlbar::placeholder{
+    color: rgba(0,0,0,0.5);
+}
+
+#menu{
+    border-radius: 6px;   
+}
+
+#bookmarkapplet{
+    border-radius: 6px;
+}
+
+#tabindic{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: none;
+    background: white !important;
+}
+
+.tab{
+    color: black !important;
+}
+
+.tabclosebtn{
+    color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 999px;
+    font-size: 16px !important;
+}
+
+.tabclosebtn:hover{
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.ui-btn{
+	background: #ededed;
+}
+
+.ui-btn:hover {
+	background: rgba(0,0,0,0.15);
+}
+
+.ui-btn svg path, 
+.ui-btn svg rect, 
+.ui-btn svg polygon {
+	fill: #000;
+}
+
+#newtabbutton{
+    right: 144px;
+    background: #ededed !important;
+    color: black;
+}
+
+.ubarnavbtn{
+    color: black;
+    transition: 0.2s background ease;
+    border-radius: 999px;
+}
+
+.ubarnavbtn:hover{
+    background: rgba(0,0,0,0.05);
+}
+
+.spinner div {
+    width: 4px;
+    height: 4px;
+    background-color: #5998ff;
+    border-radius: 50%;
+}
+
+#loadwrapper{
+    left: 160px;
+    right: 115px;
+}
+
+#menu{
+    background: white;
+    border: none;
+    transition: none !important;
+    pointer-events: none;
+}
+
+.menuitem{
+    color: black;
+}
+
+#notsecure{
+    color: black;
+    z-index: 25;
+}
